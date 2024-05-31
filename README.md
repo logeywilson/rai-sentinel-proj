@@ -35,9 +35,15 @@ Shows preparation of training data and segmentation approach using neural networ
 ## Evaluation
 The global IoU and F1 Score were considered below:
 
-- _Unet_ --> _IoU_: 0.7451    _F1 Score_ : 0.8539
-- _Unet++_ --> _IoU_:     _F1 Score_ :
-- _Linknet_ --> _IoU_:     _F1 Score_ :
+- _Unet_
+--> _IoU_: 0.7451
+--> _F1 Score_ : 0.8539
+- _Unet++_
+--> _IoU_:
+--> _F1 Score_ :
+- _Linknet_
+--> _IoU_:
+--> _F1 Score_ :
 
  _insert model name_ came out on top! Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
 - Elevation data --> The use of [NASADEM](https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem), as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood.
