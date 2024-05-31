@@ -48,11 +48,19 @@ The global IoU and F1 Score were considered below:
 - _F1 Score_ :
 
  _insert model name_ came out on top! Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
-- Elevation data --> The use of [NASADEM](https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem), as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood.
-- Rainfall data --> The use of NASA's [GPM and TRMM data](https://gpm.nasa.gov/data)
-- 
+- Elevation data --> The use of [NASADEM](https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem), as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood. The reasoning is that areas with lower elevation have a higher likelihood of flooding. 
+- Precipitation data --> The use of NASA's [GPM and TRMM data](https://gpm.nasa.gov/data) to examine precipitation could also help determine likelihood of flooding since areas with high precipitation are also subject to flooding.
+- The use of trained ML models to solve the binary classification problem on pixel-by-pixel data. This is a helpful addition since it does not involve the creation of a complex neural network! One implementation example is shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow).
+
+On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the US Spe
 
 
 ## Resources
-
-
+- [__Veridical Data Science__](https://vdsbook.com/)
+- [Map Floodwater from Radar Imagery Competition](https://www.drivendata.org/competitions/81/detect-flood-water/)
+- ["C2A-DC: A context-aware adaptive data cube framework for environmental monitoring and climate change crisis management"](https://www.sciencedirect.com/science/article/pii/S2352938524000351)
+- ["LinkNet: Exploiting encoder representations for efficient semantic segmentation"](https://ieeexplore.ieee.org/document/8305148)
+- ["U-Net: Convolutional Networks for Biomedical Image Segmentation"](https://arxiv.org/abs/1505.04597)
+- ["Daytime Arctic Cloud Detection Based on Multi-Angle Satellite Data With Case Studies"](https://www.researchgate.net/publication/4742960_Daytime_Arctic_Cloud_Detection_Based_on_Multi-Angle_Satellite_Data_With_Case_Studies)
+- [Cost of Flooding in the U.S.(NOAA)](https://www.ncei.noaa.gov/access/monitoring/dyk/billions-calculations)
+- ["Evaluating the Economic Cost of Coastal Flooding"](https://www.aeaweb.org/articles?id=10.1257/mac.20180366)
