@@ -20,16 +20,29 @@ Once a good understanding of the Sentinel metadata was achieved, the [training d
 
 We sought to compare the accuracy of three different models on this S1 training data: Unet, Unet++, and LinkNet.  
 
+### exploratory_data_analysis
+EDA on Sentinel SAR data with 542 images.
+
+### training_base_Unet
+EDA on Sentinel SAR data with 900 images. Shows preparation of training data and segmentation approach using neural networks with the Unet architecture.
+
+### training_base_Unet++
+Shows preparation of training data and segmentation approach using neural networks with the Unet++ architecture.
+
+### training_base_Linknet
+Shows preparation of training data and segmentation approach using neural networks with the Linknet architecture.
+
 ## Evaluation
 The global IoU and F1 Score were considered below:
 
-- _Unet_ --> _IoU_:   _F1 Score_ :
-- _Unet++_ --> _IoU_:   _F1 Score_ :
-- _Linknet_ --> _IoU_:   _F1 Score_ :
+- _Unet_ --> _IoU_:     _F1 Score_ :
+- _Unet++_ --> _IoU_:     _F1 Score_ :
+- _Linknet_ --> _IoU_:     _F1 Score_ :
 
  _insert model name_ came out on top! Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
-- Elevation data --> The use of NASADEM, as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood.
-- Rainfall data -->
+- Elevation data --> The use of [NASADEM](https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem), as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood.
+- Rainfall data --> The use of NASA's [GPM and TRMM data](https://gpm.nasa.gov/data)
+- 
 
 
 ## Resources
