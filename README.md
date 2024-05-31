@@ -27,7 +27,7 @@ The global IoU and F1 Score were considered below:
 - _Unet++_ --> _IoU_:   _F1 Score_ :
 - _Linknet_ --> _IoU_:   _F1 Score_ :
 
- _insert model name_ came out on top! Our IoU and F1 Score are far below what was hoped but with the incorporation of the following we believe it could be improved:
+ _insert model name_ came out on top! Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
 - Elevation data --> The use of NASADEM, as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood.
 - Rainfall data -->
 
