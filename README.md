@@ -35,15 +35,15 @@ Shows preparation of training data and segmentation approach using neural networ
 ## Evaluation
 The global IoU and F1 Score were considered below:
 
-###_Unet_
+### _Unet_
 - _IoU_: 0.7451
 - _F1 Score_ : 0.8539
 
-###_Unet++_
+### _Unet++_
 - _IoU_:
 - _F1 Score_ :
 
-###_Linknet_
+### _Linknet_
 - _IoU_:
 - _F1 Score_ :
 
