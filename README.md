@@ -1,1 +1,2 @@
-# rai-sentinel-proj
+# RAI Sentinel SAR Floodwater Detection
+
