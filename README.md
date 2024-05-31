@@ -13,9 +13,15 @@ Bin Yu and Rebecca L. Barter's book [__Veridical Data Science__](https://vdsbook
 
 ## Approach
 
+In order to get a better understanding of the what Sentinel SAR data looks like, an Exploratory Data Analysis (EDA) was done on data linked [here](https://www.kaggle.com/datasets/salazarslytherin/stac-overflow-microsoftdrivendata-competition). This data allowed us to see interesting features like image location and date. It was helpful to understand how location and time affect flood detection and impact. The overlay of S1 images and their Ground Truth comparisons was helpful in visualizing successful results in prediction.
 
+Once a good understanding of the Sentinel metadata was achieved, the [training data used for models](https://beta.source.coop/repositories/c2sms/c2smsfloods/description/) was downloaded. We decided to use this dataset in the training of our models, since it had been the most updated version with 900 images. EDA on the training data showed side-by-side comparisons of S1 and S2 images with Ground Truth.
+
+We sought to compare the accuracy of three different models on this S1 training data: Unet, Unet++, and LinkNet.  
 
 ## Evaluation
+
+
 
 ## Resources
 
