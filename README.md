@@ -51,8 +51,9 @@ The global IoU and F1 Score were considered below:
 - Elevation data --> The use of [NASADEM](https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem), as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood. The reasoning is that areas with lower elevation have a higher likelihood of flooding. 
 - Precipitation data --> The use of NASA's [GPM and TRMM data](https://gpm.nasa.gov/data) to examine precipitation could also help determine likelihood of flooding since areas with high precipitation are also subject to flooding.
 - The use of trained ML models to solve the binary classification problem on pixel-by-pixel data. This is a helpful addition since it does not involve the creation of a complex neural network! One implementation example is shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow).
+- Running the competition's [first-place solution](https://github.com/sweetlhare/STAC-Overflow) on the updated sentinel data to compare their IoU scores with ours, taking either a max or average score for each image.
 
-On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the US Spe
+On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the U.S. alone we are seeing the economic and humanitarian impacts of recent inland flood events across many Midwestern and Southern Plains states. The damage costs in 2019 were reported around $24.6 Billion accourding to NOAA
 
 
 ## Resources
@@ -63,4 +64,5 @@ On the topics of real-world impacts, it was mentioned that Flood Disaster is amo
 - ["U-Net: Convolutional Networks for Biomedical Image Segmentation"](https://arxiv.org/abs/1505.04597)
 - ["Daytime Arctic Cloud Detection Based on Multi-Angle Satellite Data With Case Studies"](https://www.researchgate.net/publication/4742960_Daytime_Arctic_Cloud_Detection_Based_on_Multi-Angle_Satellite_Data_With_Case_Studies)
 - [Cost of Flooding in the U.S.(NOAA)](https://www.ncei.noaa.gov/access/monitoring/dyk/billions-calculations)
+- [Heavy Rainfall is increasing in the U.S.](https://nca2014.globalchange.gov/highlights/report-findings/extreme-weather#narrative-page-20985)
 - ["Evaluating the Economic Cost of Coastal Flooding"](https://www.aeaweb.org/articles?id=10.1257/mac.20180366)
