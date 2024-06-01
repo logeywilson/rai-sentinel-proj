@@ -61,7 +61,7 @@ The global IoU and F1 Score were considered below:
 - _IoU_: 0.7058
 - _F1 Score_ : 0.8275
 
- _insert model name_ came out on top! 
+__Unet came out on top!__ 
 
  ### Moving Forward
  Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
