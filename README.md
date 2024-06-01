@@ -40,10 +40,10 @@ EDA on Sentinel SAR data with 542 images.
 ### training_base_Unet
 EDA on Sentinel SAR data with 900 images. Shows preparation of training data and segmentation approach using neural network with the Unet architecture.
 
-### training_base_Unet++
+### Ayman_trainingBaseline
 Shows preparation of training data and segmentation approach using neural network with the Unet++ architecture.
 
-### training_base_Linknet
+### training_base_Linknet_Logan
 Shows preparation of training data and segmentation approach using neural network with the Linknet architecture.
 
 ## Evaluation
