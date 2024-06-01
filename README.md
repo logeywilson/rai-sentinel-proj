@@ -1,5 +1,11 @@
 # RAI - Sentinel SAR Floodwater Detection
 
+### Table of Contents
+### 1 - Description
+### 2 - Objective
+### 3 - Approach
+### 4 - Resources
+
 ## Description
 
 This project has taken on the task of detecting the presence of floodwater in Sentinel-1 global synthetic aperture radar (SAR) imagery. Flooding is the most frequent and costly natural disaster in the US! High resolution SAR imaging has strengthened monitoring systems by providing data in otherwise inaccessible areas at frequent time intervals. Improving accuracy has the potential for strengthening early warning systems, risk assessment, and target relief.
@@ -47,13 +53,17 @@ The global IoU and F1 Score were considered below:
 - _IoU_:
 - _F1 Score_ :
 
- _insert model name_ came out on top! Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
+ _insert model name_ came out on top! 
+
+ ### Moving Forward
+ Our IoU and F1 Scores are below what was hoped, but with the incorporation of the following we believe it could be improved:
 - Elevation data --> The use of [NASADEM](https://www.earthdata.nasa.gov/esds/competitive-programs/measures/nasadem), as shown in the [first-place solution](https://github.com/sweetlhare/STAC-Overflow) to the "Map Floodwater from Radar Imagery" competition, is extremely helpful in determining which areas are likely to flood. The reasoning is that areas with lower elevation have a higher likelihood of flooding. 
 - Precipitation data --> The use of NASA's [GPM and TRMM data](https://gpm.nasa.gov/data) to examine precipitation could also help determine likelihood of flooding since areas with high precipitation are also subject to flooding.
 - The use of trained ML models to solve the binary classification problem on pixel-by-pixel data. This is a helpful addition since it does not involve the creation of a complex neural network! One implementation example is shown in the first-place solution.
 - Running the competition's first-place solution on the updated sentinel data to compare their IoU scores with ours, taking either a max or average score for each image.
 
-On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the U.S. alone we are seeing the economic and humanitarian impacts of recent inland flood events across many Midwestern and Southern Plains states. The damage costs in 2019 were reported around $24.6 Billion accourding to NOAA
+### Real World Impact 
+On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the U.S. alone we are seeing the economic and humanitarian impacts of recent inland flood events across many Midwestern and Southern Plains states. The damage costs in 2019 were reported around $24.6 Billion accourding to NOAA, this does not include the loss of life costs associated.
 
 
 ## Resources
