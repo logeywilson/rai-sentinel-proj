@@ -18,7 +18,7 @@ In order to get a better understanding of the what Sentinel SAR data looks like,
 
 Once a good understanding of the Sentinel metadata was achieved, the [training data used for models](https://beta.source.coop/repositories/c2sms/c2smsfloods/description/) was downloaded. We decided to use this dataset in the training of our models, since it had been the most updated version with 900 images from 18 global flood events (512x512 pixel). EDA on the updated training data showed side-by-side comparisons of S1 and S2 images with Ground Truth. The training data used for our models however only considered S1 images.
 
-We sought to compare the accuracy of three different models on this S1 training data: Unet, Unet++, and LinkNet. We came to the conclusion that the comparison of different neural network architectures would be a beneficial in understanding how they each perform on updated S1 data. Our idea for this approach came from the paper: ["C2A-DC: A context-aware adaptive data cube framework for environmental monitoring and climate change crisis management"](https://www.sciencedirect.com/science/article/pii/S2352938524000351).
+We sought to compare the accuracy of three different models on this S1 training data: Unet, R2Unet, and LinkNet. We came to the conclusion that the comparison of different neural network architectures would be a beneficial in understanding how they each perform on updated S1 data. Our idea for this approach came from the paper: ["C2A-DC: A context-aware adaptive data cube framework for environmental monitoring and climate change crisis management"](https://www.sciencedirect.com/science/article/pii/S2352938524000351).
 
 ### exploratory_data_analysis
 EDA on Sentinel SAR data with 542 images.
@@ -26,8 +26,8 @@ EDA on Sentinel SAR data with 542 images.
 ### training_base_Unet
 EDA on Sentinel SAR data with 900 images. Shows preparation of training data and segmentation approach using neural network with the Unet architecture.
 
-### training_base_Unet++
-Shows preparation of training data and segmentation approach using neural network with the Unet++ architecture.
+### training_base_R2Unet
+Shows preparation of training data and segmentation approach using neural network with the R2Unet architecture.
 
 ### training_base_Linknet
 Shows preparation of training data and segmentation approach using neural network with the Linknet architecture.
@@ -39,7 +39,7 @@ The global IoU and F1 Score were considered below:
 - _IoU_: 0.7451
 - _F1 Score_ : 0.8539
 
-### _Unet++_
+### _R2Unet_
 - _IoU_:
 - _F1 Score_ :
 
