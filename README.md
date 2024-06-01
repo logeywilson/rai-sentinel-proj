@@ -1,6 +1,6 @@
 # RAI - Sentinel SAR Floodwater Detection
 
-### Table of Contents
+### _Table of Contents_
 ### 1 - Description
 ### 2 - Objective
 ### 3 - Approach
