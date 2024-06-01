@@ -54,12 +54,12 @@ The global IoU and F1 Score were considered below:
 - _F1 Score_ : 0.8539
 
 ### _Unet++_
-- _IoU_:
+- _IoU_: 
 - _F1 Score_ :
 
 ### _Linknet_
-- _IoU_:
-- _F1 Score_ :
+- _IoU_: 0.7058
+- _F1 Score_ : 0.8275
 
  _insert model name_ came out on top! 
 
