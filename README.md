@@ -64,7 +64,9 @@ The global IoU and F1 Score were considered below:
 - Running the competition's first-place solution on the updated sentinel data to compare their IoU scores with ours, taking either a max or average score for each image.
 
 ### Real World Impact 
-On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the U.S. alone we are seeing the economic and humanitarian impacts of recent inland flood events across many Midwestern and Southern Plains states. The damage costs in 2019 were reported around $24.6 Billion accourding to NOAA, this does not include the loss of life costs associated. Additionally, we see the rise in sealevel as posing a major threat. In "Evaluating the Economic Cost of Coastal Flooding", it's predicted that based on RCP 4.5 the U.S. will experience a 0.10-0.12% loss in real GDP by 2200. For perspective the 2024 U.S. real GDP is 25.44 Trillion USD, and a 0.12% loss would be approximately 30.5 Billion USD.  
+On the topics of real-world impacts, it was mentioned that Flood Disaster is among the most costly natural disasters in the world. In the U.S. alone we are seeing the economic and humanitarian impacts of recent inland flood events across many Midwestern and Southern Plains states. The damage costs in 2019 were reported around $24.6 Billion accourding to NOAA, this does not include the loss of life costs associated. Additionally, we see the rise in sealevel as posing a major threat. In "Evaluating the Economic Cost of Coastal Flooding", it's predicted that based on RCP 4.5 the U.S. will experience a 0.10-0.12% loss in real GDP by 2200. For perspective the 2024 U.S. real GDP is 25.44 Trillion USD, and a 0.12% loss would be approximately 30.5 Billion USD.
+
+The need for accurate detection of Floodwater is absolutely essential. Increasing metrics like IoU and F1 Score allow governments to recieve more accurate prediction in early warning systems, risk assessment, and target relief. Preventative measures for future disasters is the goal, and that is achieved by crtitically examining existing and real-time floodwater data!
 
 
 ## Resources
