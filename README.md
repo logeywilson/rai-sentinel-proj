@@ -83,6 +83,8 @@ The need for accurate detection of Floodwater is absolutely essential. Increasin
 - ["C2A-DC: A context-aware adaptive data cube framework for environmental monitoring and climate change crisis management"](https://www.sciencedirect.com/science/article/pii/S2352938524000351)
 - ["LinkNet: Exploiting encoder representations for efficient semantic segmentation"](https://ieeexplore.ieee.org/document/8305148)
 - ["U-Net: Convolutional Networks for Biomedical Image Segmentation"](https://arxiv.org/abs/1505.04597)
+- ["UNet++: A Nested U-Net Architecture for Medical Image Segmentation"](https://arxiv.org/abs/1807.10165)
+- [Segmentation Models](https://smp.readthedocs.io/en/latest/models.html#id2)
 - ["Daytime Arctic Cloud Detection Based on Multi-Angle Satellite Data With Case Studies"](https://www.researchgate.net/publication/4742960_Daytime_Arctic_Cloud_Detection_Based_on_Multi-Angle_Satellite_Data_With_Case_Studies)
 - [Cost of Flooding in the U.S.(NOAA)](https://www.ncei.noaa.gov/access/monitoring/dyk/billions-calculations)
 - [Heavy Rainfall is increasing in the U.S.](https://nca2014.globalchange.gov/highlights/report-findings/extreme-weather#narrative-page-20985)
